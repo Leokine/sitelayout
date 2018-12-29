@@ -1,0 +1,348 @@
+body{
+  font-family: Georgia, serif;
+  font-size: 12pt;
+  font-weight: 100;
+}
+#out{
+  height: 100%;
+  padding-top: 40px;
+}  
+/* ------------------------------------------------- */
+header{
+  position:fixed;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #55415f;
+  font-size: 11pt;
+  width: 100%;
+  height: 40px;
+  top: 0;
+  left: 0;  
+}
+ul.hr li{
+  display: inline;
+}
+.hr{
+  margin: 35px;
+}
+ul.hr a{ 
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  color: white;
+}
+/* ------------------------------------------------- */
+#navigation{
+/*   border: 1px solid black; */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.block{
+/*   border: 1px solid black; */
+  margin-left: 30px;
+  margin-right: 30px;
+}
+#logo{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 270px;
+  height: 100%;
+  min-height: 170px;
+}
+#revelation{
+  text-transform: uppercase;
+  font-size: 26pt;
+/*   border: 1px solid black; */
+}
+#revelation:first-letter {
+  font-size: 36pt;
+}
+#shortstring{
+  color: #999999;
+  font-weight: 100;
+/*   border: 1px solid black; */
+}  
+.nv{
+  display: flex;
+  flex-flow: row nowrap;
+  padding-left: 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ebebeb;
+}
+.nv li{ 
+  display: inline;
+  font-weight: 100;
+}
+.nv a{ 
+  text-decoration: none;
+  color: #55415f;
+}
+span{
+  margin-left: 15px;
+}
+/* ------------------------------------------------- */
+#withpicture{
+/*   border: 1px solid black;   */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #ebebeb;
+  width: 100%;
+  min-width: 1000px;
+  height: 100%;
+  min-height: 520px;  
+} 
+#text1{
+/*   border: 1px solid black; */
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start; 
+  justify-content: flex-end;
+  width: 700px;
+  height: 100%;
+  min-height: 300px;
+}
+#acatchytitle{
+  text-transform: uppercase;
+  color: #333333;
+  font-size: 36pt;
+  margin-bottom: 25px;
+}
+#justtext1{
+  color: #999999;
+  font-size: 16pt;
+  line-height: 20pt;
+  margin-bottom: 20px;
+}
+#button1{
+  font-family: Georgia, serif;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #55415f;
+  font-size: 16pt;
+  border: 0;
+  border-radius: 4px;
+  width: 170px;
+  height: 37px;
+  margin-bottom: 55px;
+}
+#button1 a{
+  text-decoration: none;
+  color: white;
+}
+/* ------------------------------------------------- */
+#slider{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.sliderblock{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center; 
+  justify-content: flex-end;
+  width: 255px;
+  height: 100%;
+  padding-top: 50px;
+}
+.picture64{
+  width: 75px;
+  height: 75px;
+  padding-bottom: 20px;
+}
+.vivamuslibero{
+  font-size: 16pt;
+  color: #55415f;
+  padding-bottom: 20px;
+}
+.justtext2{
+  color: #999999;
+  font-size: 13pt;
+  line-height: 20pt;
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #ebebeb;
+}
+/* ------------------------------------------------- */
+#justtext3{
+  /*   border: 1px solid black; */
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center; 
+  justify-content: center; 
+  font-size: 16pt;
+  color: #333333;
+  text-align: center;
+  padding: 40px 85px;
+}
+/* ------------------------------------------------- */
+#someblocks{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 0px 30px 50px 30px;
+}
+.blockinsection{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start; 
+  justify-content: flex-start;
+  width: 250px;
+  height: 100%;
+}
+.indonectetus{
+  font-size: 16pt;
+  color: #999999;
+  padding-bottom: 20px;
+}
+.picture225{
+  width: 250px;
+  height: 150px;
+  padding-bottom: 20px;
+}
+.justtext4{
+  font-size: 13pt;
+  color: #999999;
+  padding-bottom: 20px;
+}
+.link a{
+  text-decoration: none;
+  font-size: 13pt;
+  color: #55415f;
+}
+/* ------------------------------------------------- */
+footer{  
+  background-color: #222222;
+  height: 300px;
+  position: absolute; 
+  width: 100%;
+  left: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #333333;
+}
+#formargin{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #999999; 
+  font-size: 11pt;
+  margin: 50px 30px 0px 30px;
+}
+.block2{
+/*   border: 1px solid black; */
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 250px;
+  height: 100%;
+}
+.headlinefooter{
+  font-size: 16pt;
+  text-transform: capitalize;
+  color: white; 
+  padding-bottom: 30px;
+}
+#posttitle{
+  text-transform: capitalize;
+  color: #9f80a9; 
+  padding-bottom: 5px;
+}
+#friday{
+  font-size: 8pt;
+  padding-bottom: 15px;
+}
+/* ------------- */
+#list1{
+  margin: 0;
+  padding-left: 0;
+  line-height: 17pt;
+}
+#list1 li{ 
+  list-style-type: none; 
+}
+#list1 li:before{ 
+  color: white;
+  content: "» "; 
+  padding-right: 10px;
+}
+#list1 a{
+  text-decoration: none;
+  color: #9f80a9;
+}
+/* ------------- */
+.list2{
+  margin: 0;
+  padding-left: 0;
+  line-height: 14pt;
+}
+#forbottom{
+  padding-bottom: 15px;
+}
+.list2 li{ 
+  list-style-type: none; 
+}
+.list2 a{ 
+  text-decoration: none;
+  color: #9f80a9;
+}
+/* ------------- */
+.grayfield{
+  display: flex;
+  align-items: center;
+  background-color: #333333; 
+  border-radius: 5px;
+  width: 100%;
+  max-width: 240px;
+  padding-left: 10px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+#button2{
+  font-family: Georgia, serif;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #9f81a9;
+  font-size: 12pt;
+  border: 0;
+  border-radius: 5px;
+  width: 90px;
+  height: 35px;
+  margin-bottom: 55px;
+}
+#button2 a{
+  text-decoration: none;
+  color: white;
+}
+/* ------------------------------------------------- */  
+#copyrightsection{  
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222222;
+  color: #999999;
+  height: 50px;
+  position: absolute;
+  padding-top: 320px;
+  width: 100%;
+  left: 0;
+}
+.copyright{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+  /* цвета: 
+      55415f
+      ebebeb светло-серый
+  333333 темно-серый
+  999999 серый цвет текста
+  222222 футер
+  9f80a9 сиреневый текст в футере 
+  9f81a9 сиреневая кнопка в футере */
